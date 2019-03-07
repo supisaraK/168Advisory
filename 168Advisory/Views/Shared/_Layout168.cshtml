@@ -60,13 +60,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
-                        <div id="colorlib-logo"><a href="index.html">Law<span>firm.</span></a></div>
+                        <div id="colorlib-logo"><a href="@Url.Action("Index","Home")">168<span>Advisory</span></a></div>
                     </div>
                     <div class="col-md-10 text-right menu-1">
                         <ul>
-                            <li class="active"><a href="index.html">168</a></li>
+                            <li class="active"><a href="@Url.Action("Index","Home")">168</a></li>
                             <li class="has-dropdown">
-                                <a href="blog.html">Advisory</a>
+                                <a href="@Url.Action("Products","Home")">Advisory</a>
                                 <ul class="dropdown">
                                     <li><a href="#">IOI</a></li>
                                     <li><a href="#">M&A</a></li>
@@ -74,9 +74,9 @@
                                     <li><a href="#">HR</a></li>
                                 </ul>
                             </li>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="about.html">Business Solutions</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="@Url.Action("AboutUs","Home")">About Us</a></li>
+                            <li><a href="@Url.Action("Soulutions","Home")">Business Solutions</a></li>
+                            <li><a href="@Url.Action("ContactUs","Home")">Contact Us</a></li>
                             @*<li class="btn-cta"><a href="#"><span>Make an Appointment</span></a></li>*@
                             <!-- <li class="btn-cta"><a href="#"><span>Sign Up</span></a></li> -->
                         </ul>
